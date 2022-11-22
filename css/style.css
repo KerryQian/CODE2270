@@ -18,15 +18,41 @@ h1, h2 {
     color:rgb(255, 255, 255);
     background: #334A5C;
     font-family: sans-serif;
+    font-style: italic;
     text-align: center;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
+}
+
+h1{
+    font-size: 50px;
 }
 
 h2 {
     padding-top: 0.5em;
     font-size: 20px;
     line-height : 20px;
+    padding-bottom: 1.5em;
+}
+
+.About {
+    padding-top: ;
+    left: 0%;
+    top:15em;
+    right: 0;
+    bottom: 80vh;
+    background: #334A5C;
+    position: absolute;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+p {
+    color: black;
+    font-family: sans-serif;
+
 }
 
 .canvas{
