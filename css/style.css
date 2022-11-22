@@ -1,23 +1,37 @@
 .titleBlock {
     /* This is a comment */
-    width:80vw;
-    /*background:red;*/
-    margin-left: 10vw;
-    line-height: 1px;
-    margin-top:50px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 80vh;
+    background: #334A5C;
+    position: absolute;
+    
+}
+
+.box {
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 h1, h2 {
-    color:red;
+    color:rgb(255, 255, 255);
+    background: #334A5C;
+    font-family: sans-serif;
+    text-align: center;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
 }
 
 h2 {
+    padding-top: 0.5em;
     font-size: 20px;
+    line-height : 20px;
 }
 
 .canvas{
     height:80vh;
     width:80vw;
-    background:yellow;
+    background:rgb(0, 0, 0);
     margin-left:10vw;
 }

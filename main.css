@@ -8,6 +8,18 @@ body {
 	overscroll-behavior: none;
 }
 
+.titleBlock {
+    /* This is a comment */
+    width:80vw;
+    /*background:red;*/
+    margin-left: 40vw;
+    line-height: 1px;
+    margin-top:50px;
+	margin-bottom: 50px;
+	background: #334A5C;
+	color: #fff;
+}
+
 a {
 	color: #ff0;
 	text-decoration: none;
